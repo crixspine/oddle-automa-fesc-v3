@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_menu-logo-image</name>
+   <tag></tag>
+   <elementGuidId>abad9134-e4c4-44f4-a776-06074b5d8b67</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>menu-logo-image</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://s3-ap-southeast-1.amazonaws.com/v3-beta.image.oddle.me/logo/menu_logo_OddleAutomate225c19.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-header&quot;)/div[@class=&quot;header-container grid-container grid-100 tablet-grid-100 mobile-grid-100&quot;]/div[@class=&quot;grid-parent grid-50 tablet-grid-40 mobile-grid-60 pb-align-center&quot;]/div[@class=&quot;menu-name-logo-container&quot;]/a[1]/img[@class=&quot;menu-logo-image&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

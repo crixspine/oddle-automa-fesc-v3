@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description>v3.0 cart url</description>
+      <initValue>'https://oddleautomate.beta.oddle.me/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>email for customer login</description>
+      <initValue>'kevin.ang+auto@oddle.me'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pass for customer login</description>
+      <initValue>'password'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>email for fb login</description>
+      <initValue>'kevin.ang@oddle.me'</initValue>
+      <name>email_fb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pass for fb login</description>
+      <initValue>'puToNtaB_1'</initValue>
+      <name>password_fb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>placeholder email in valid format, not registered as customer</description>
+      <initValue>'unusedemail@changethis.ifused'</initValue>
+      <name>email_placeholder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>alternate registered user email for customer login</description>
+      <initValue>'test@oddle.me'</initValue>
+      <name>email_regd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default phone number </description>
+      <initValue>'91111111'</initValue>
+      <name>phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default company</description>
+      <initValue>'The Oddle Company'</initValue>
+      <name>company</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>placeholder password in valid format</description>
+      <initValue>'newpassword'</initValue>
+      <name>password_placeholder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default postal code</description>
+      <initValue>'139951'</initValue>
+      <name>postalcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default unit number</description>
+      <initValue>'01-23'</initValue>
+      <name>unit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default address</description>
+      <initValue>'71 Ayer Rajah Crescent'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>postal code outside of delivery zone</description>
+      <initValue>'627865'</initValue>
+      <name>postalcode_out</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default first name</description>
+      <initValue>'kevin'</initValue>
+      <name>fname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default last name</description>
+      <initValue>'test'</initValue>
+      <name>lname</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

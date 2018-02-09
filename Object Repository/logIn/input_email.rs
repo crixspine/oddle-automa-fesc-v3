@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_email</name>
+   <tag></tag>
+   <elementGuidId>15a4c291-51c1-4916-aa10-c48e7d82b04a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[count(. | //*[@type = 'email']) = count(//*[@type = 'email'])][count(. | //*[@placeholder = 'Email']) = count(//*[@placeholder = 'Email'])][count(. | id(&quot;signin-flow-modal&quot;)/div[@class=&quot;pickup-store-content&quot;]/div[@class=&quot;grid-100 tablet-grid-100 mobile-grid-100 grid-parent signin-flow-content signin-flow-content-border-left signin&quot;]/div[@class=&quot;signin-flow-signin-content&quot;]/input[1]) = count(id(&quot;signin-flow-modal&quot;)/div[@class=&quot;pickup-store-content&quot;]/div[@class=&quot;grid-100 tablet-grid-100 mobile-grid-100 grid-parent signin-flow-content signin-flow-content-border-left signin&quot;]/div[@class=&quot;signin-flow-signin-content&quot;]/input[1])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.4.5.1.1.0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;signin-flow-modal&quot;)/div[@class=&quot;pickup-store-content&quot;]/div[@class=&quot;grid-100 tablet-grid-100 mobile-grid-100 grid-parent signin-flow-content signin-flow-content-border-left signin&quot;]/div[@class=&quot;signin-flow-signin-content&quot;]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

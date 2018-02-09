@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test_run,,,2018-02-07 17:24:50,2018-02-07 17:24:52,1.972s,FAILED
+,,,,,,
+Test Cases/001_login_email_successful,,,2018-02-07 17:24:51,2018-02-07 17:24:52,1.366s,FAILED
+autoKeywords.goToHomepageMax.goToHomepage,,,2018-02-07 17:24:52,2018-02-07 17:24:52,0.493s,FAILED

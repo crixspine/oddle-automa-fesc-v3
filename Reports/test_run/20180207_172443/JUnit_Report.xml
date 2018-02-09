@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_run" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="test_run" tests="0" failures="1" errors="0" time="1" timestamp="2018-02-07 17:24:50" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/test_run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\test_run\\20180207_172443"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\test_run\\20180207_172443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/001_login_email_successful" classname="Test Cases/001_login_email_successful" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)"/>
+         <system-out><![CDATA[2018-02-07 17:24:51 - [TEST_CASE][FAILED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful FAILED because (of) Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)
+
+2018-02-07 17:24:52 - [TEST_STEP][FAILED] - autoKeywords.goToHomepageMax.goToHomepage: Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)
+
+2018-02-07 17:24:52 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)
+
+2018-02-07 17:24:52 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)]]></system-out>
+         <system-err><![CDATA[2018-02-07 17:24:51 - [TEST_CASE][FAILED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful FAILED because (of) Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-07 17:24:50 - [TEST_SUITE][FAILED] - test_run: Test Cases/001_login_email_successful FAILED because (of) Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)]]></system-out>
+      <system-err><![CDATA[2018-02-07 17:24:50 - [TEST_SUITE][FAILED] - test_run: Test Cases/001_login_email_successful FAILED because (of) Unable to open browser with url: '' (Root cause: Missing property 'platformName' for appium remote web driver)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_run" time="41" tests="0" failures="1" errors="0">
+   <testsuite name="test_run" tests="0" failures="1" errors="0" time="41" timestamp="2018-02-07 17:13:33" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/test_run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\test_run\\20180207_171325"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\test_run\\20180207_171325\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\test_run\\20180207_171325\\1517994832170.png"/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="380a11429676ff73fc55af8ccde476d1b5a96c61"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/001_login_email_successful" classname="Test Cases/001_login_email_successful" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)"/>
+         <system-out><![CDATA[2018-02-07 17:13:33 - [TEST_CASE][FAILED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful FAILED because (of) Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)
+
+2018-02-07 17:13:34 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-07 17:13:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-07 17:13:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-07 17:13:50 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-07 17:13:50 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-07 17:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-07 17:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-07 17:13:50 - [TEST_STEP][FAILED] - setText: Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)
+
+2018-02-07 17:13:54 - [MESSAGE][FAILED] - Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\test_run\\20180207_171325\\1517994832170.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-07 17:13:33 - [TEST_CASE][FAILED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful FAILED because (of) Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-07 17:13:33 - [TEST_SUITE][FAILED] - test_run: Test Cases/001_login_email_successful FAILED because (of) Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)]]></system-out>
+      <system-err><![CDATA[2018-02-07 17:13:33 - [TEST_SUITE][FAILED] - test_run: Test Cases/001_login_email_successful FAILED because (of) Unable to set text 'kevin.ang+auto@oddle.me' of object 'Object Repository/logIn/input_email' (Root cause: org.openqa.selenium.ElementNotVisibleException: An element command could not be completed because the element is not visible on the page. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {applicationCacheEnabled: true, browserName: safari, cleanSession: true, cssSelectorsEnabled: true, databaseEnabled: true, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: false, nativeEvents: true, platform: MAC, platformName: MAC, rotatable: false, version: 13604.5.6, webStorageEnabled: true}
+Session ID: 380a11429676ff73fc55af8ccde476d1b5a96c61)]]></system-err>
+   </testsuite>
+</testsuites>
