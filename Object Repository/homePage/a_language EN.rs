@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_language EN</name>
+   <tag></tag>
+   <elementGuidId>c985a4e8-4121-4779-8fc4-9f0bbf836e67</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>?lang=en_TW</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.1.1.0.0.1.0.1.0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-info-btn-container&quot;)/div[@class=&quot;grid-100 tablet-grid-100 mobile-grid-100 grid-parent&quot;]/div[@class=&quot;hide-on-mobile&quot;]/div[@class=&quot;display-language-container header-btn customise-general-primary-hover-color pb-no-right-margin&quot;]/div[1]/div[@class=&quot;cart-language-dropdown customise-general-secondary-font-color&quot;]/ul[1]/li[2]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

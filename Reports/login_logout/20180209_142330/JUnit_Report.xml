@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login_logout" time="89" tests="8" failures="1" errors="0">
+   <testsuite name="login_logout" tests="8" failures="1" errors="0" time="89" timestamp="2018-02-09 14:23:37" hostname="Ang - DESKTOP-JMN7MR3" id="Test Suites/login_logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\login_logout\\20180209_142330"/>
+         <property name="logFiles" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\login_logout\\20180209_142330\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\login_logout\\20180209_142330\\1518157497211.png"/>
+         <property name="hostName" value="Ang - DESKTOP-JMN7MR3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.126.1"/>
+         <property name="sessionId" value="d1d995134bb51ace0413979dbc139151"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/001_login_email_successful" classname="Test Cases/001_login_email_successful" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:23:38 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-02-09 14:23:38 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:23:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:23:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:23:45 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:23:45 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:23:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:23:46 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:23:47 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:23:47 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:23:47 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:23:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:23:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Save' is clicked on
+
+2018-02-09 14:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Save' is clicked on
+
+2018-02-09 14:23:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/logIn/button_ Continue Shopping' is visible
+
+2018-02-09 14:23:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:23:48 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/button_ Continue Shopping' is visible
+
+2018-02-09 14:23:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_ Continue Shopping' is clicked on
+
+2018-02-09 14:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_ Continue Shopping' is clicked on
+
+2018-02-09 14:23:48 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn: autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-02-09 14:23:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_signin_SignedIn Name' is: 'kevin test'
+
+2018-02-09 14:23:48 - [MESSAGE][PASSED] - Actual text 'kevin test' and expected text 'kevin test' are matched 
+
+2018-02-09 14:23:48 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/002_login_email_wrongpw" classname="Test Cases/002_login_email_wrongpw" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:23:49 - [TEST_CASE][PASSED] - Test Cases/002_login_email_wrongpw: Test Cases/002_login_email_wrongpw
+
+2018-02-09 14:23:49 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:23:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:23:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:23:54 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:23:54 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:23:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:23:54 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:23:54 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:23:54 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:23:55 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:23:55 - [TEST_STEP][PASSED] - setText: Text 'wrongpassword' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:23:55 - [MESSAGE][PASSED] - Text 'wrongpassword' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:23:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:23:56 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:23:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:23:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:23:56 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut: autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_Sign In' is: 'Sign In'
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - Actual text 'Sign In' and expected text 'Sign In' are matched 
+
+2018-02-09 14:23:56 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/003_login_email_wrongpwformat" classname="Test Cases/003_login_email_wrongpwformat" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:23:57 - [TEST_CASE][PASSED] - Test Cases/003_login_email_wrongpwformat: Test Cases/003_login_email_wrongpwformat
+
+2018-02-09 14:23:57 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:24:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:24:03 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:03 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:03 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:03 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:03 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:24:03 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:24:03 - [TEST_STEP][PASSED] - setText: Text 'wrongft' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Text 'wrongft' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:24:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:24:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:24:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:24:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:24:04 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut: autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_Sign In' is: 'Sign In'
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - Actual text 'Sign In' and expected text 'Sign In' are matched 
+
+2018-02-09 14:24:04 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/004_login_email_wrongemail" classname="Test Cases/004_login_email_wrongemail" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:24:05 - [TEST_CASE][PASSED] - Test Cases/004_login_email_wrongemail: Test Cases/004_login_email_wrongemail
+
+2018-02-09 14:24:05 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:24:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:24:10 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:10 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:11 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:11 - [TEST_STEP][PASSED] - setText: Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:24:11 - [MESSAGE][PASSED] - Text 'unusedemail@changethis.ifused' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:24:11 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:24:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:24:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:24:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:24:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:24:12 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut: autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_Sign In' is: 'Sign In'
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - Actual text 'Sign In' and expected text 'Sign In' are matched 
+
+2018-02-09 14:24:12 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/005_login_email_wrongemailformat" classname="Test Cases/005_login_email_wrongemailformat" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:24:13 - [TEST_CASE][PASSED] - Test Cases/005_login_email_wrongemailformat: Test Cases/005_login_email_wrongemailformat
+
+2018-02-09 14:24:13 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:24:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:24:18 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:18 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:19 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:19 - [TEST_STEP][PASSED] - setText: Text 'wrong_email_format' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:24:19 - [MESSAGE][PASSED] - Text 'wrong_email_format' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:24:19 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:24:19 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:24:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:24:19 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/div_grid-parent signin window' is visible
+
+2018-02-09 14:24:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/a_ close signin window' is visible
+
+2018-02-09 14:24:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/a_ close signin window' is clicked on
+
+2018-02-09 14:24:20 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut: autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-02-09 14:24:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_Sign In' is: 'Sign In'
+
+2018-02-09 14:24:20 - [MESSAGE][PASSED] - Actual text 'Sign In' and expected text 'Sign In' are matched 
+
+2018-02-09 14:24:20 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/006_login_fb_loggedin" classname="Test Cases/006_login_fb_loggedin" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:24:21 - [TEST_CASE][PASSED] - Test Cases/006_login_fb_loggedin: Test Cases/006_login_fb_loggedin
+
+2018-02-09 14:24:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-09 14:24:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:24:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-09 14:24:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:24:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2018-02-09 14:24:26 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2018-02-09 14:24:26 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/externalSites/fb_input_email'
+
+2018-02-09 14:24:26 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/externalSites/fb_input_email'
+
+2018-02-09 14:24:26 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/externalSites/fb_input_pass'
+
+2018-02-09 14:24:27 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/externalSites/fb_input_pass'
+
+2018-02-09 14:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/externalSites/fb_input_login' is clicked on
+
+2018-02-09 14:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/externalSites/fb_input_login' is clicked on
+
+2018-02-09 14:24:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-09 14:24:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-09 14:24:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:35 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/logIn/button_Facebook Connect' is clickable
+
+2018-02-09 14:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:24:35 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/button_Facebook Connect' is clickable
+
+2018-02-09 14:24:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_Facebook Connect' is clicked on
+
+2018-02-09 14:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_Facebook Connect' is clicked on
+
+2018-02-09 14:24:36 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn: autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-02-09 14:24:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_signin_SignedIn Name' is: 'kevin test'
+
+2018-02-09 14:24:37 - [MESSAGE][PASSED] - Actual text 'kevin test' and expected text 'kevin test' are matched 
+
+2018-02-09 14:24:37 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/007_login_fb_notloggedin" classname="Test Cases/007_login_fb_notloggedin" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:24:38 - [TEST_CASE][PASSED] - Test Cases/007_login_fb_notloggedin: Test Cases/007_login_fb_notloggedin
+
+2018-02-09 14:24:38 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:24:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:24:43 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:43 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:43 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/logIn/button_Facebook Connect' is clickable
+
+2018-02-09 14:24:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/button_Facebook Connect' is clickable
+
+2018-02-09 14:24:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_Facebook Connect' is clicked on
+
+2018-02-09 14:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_Facebook Connect' is clicked on
+
+2018-02-09 14:24:44 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Facebook'
+
+2018-02-09 14:24:45 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2018-02-09 14:24:45 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang@oddle.me' is set on object 'Object Repository/externalSites/input_email_fbwindow'
+
+2018-02-09 14:24:45 - [MESSAGE][PASSED] - Text 'kevin.ang@oddle.me' is set on object 'Object Repository/externalSites/input_email_fbwindow'
+
+2018-02-09 14:24:45 - [TEST_STEP][PASSED] - setText: Text 'puToNtaB_1' is set on object 'Object Repository/externalSites/input_pass_fbwindow'
+
+2018-02-09 14:24:45 - [MESSAGE][PASSED] - Text 'puToNtaB_1' is set on object 'Object Repository/externalSites/input_pass_fbwindow'
+
+2018-02-09 14:24:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/externalSites/label_loginbutton_fbwindow' is clicked on
+
+2018-02-09 14:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/externalSites/label_loginbutton_fbwindow' is clicked on
+
+2018-02-09 14:24:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-09 14:24:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-09 14:24:49 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-02-09 14:24:50 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn: autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-02-09 14:24:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_signin_SignedIn Name' is: 'kevin test'
+
+2018-02-09 14:24:50 - [MESSAGE][PASSED] - Actual text 'kevin test' and expected text 'kevin test' are matched 
+
+2018-02-09 14:24:50 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/008_login_fb_wrongpw" classname="Test Cases/008_login_fb_wrongpw" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;facebook-connect-btn&quot; data-reactid=&quot;.0.4.5.1.0.2.0&quot;>...&lt;/button> is not clickable at point (676, 282). Other element would receive the click: &lt;div class=&quot;grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title&quot; data-reactid=&quot;.0.4.5.1.0&quot;>...&lt;/div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)"/>
+         <system-out><![CDATA[2018-02-09 14:24:51 - [TEST_CASE][FAILED] - Test Cases/008_login_fb_wrongpw: Test Cases/008_login_fb_wrongpw FAILED because (of) Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="facebook-connect-btn" data-reactid=".0.4.5.1.0.2.0">...</button> is not clickable at point (676, 282). Other element would receive the click: <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title" data-reactid=".0.4.5.1.0">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)
+
+2018-02-09 14:24:51 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:24:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:24:56 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:24:56 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:24:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:24:57 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/logIn/button_Facebook Connect' is clickable
+
+2018-02-09 14:24:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:24:57 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/button_Facebook Connect' is clickable
+
+2018-02-09 14:24:57 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="facebook-connect-btn" data-reactid=".0.4.5.1.0.2.0">...</button> is not clickable at point (676, 282). Other element would receive the click: <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title" data-reactid=".0.4.5.1.0">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)
+
+2018-02-09 14:24:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="facebook-connect-btn" data-reactid=".0.4.5.1.0.2.0">...</button> is not clickable at point (676, 282). Other element would receive the click: <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title" data-reactid=".0.4.5.1.0">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)
+[[ATTACHMENT|C:\\Users\\Ang\\Katalon Studio\\oddle-automa-fesc-v3\\Reports\\login_logout\\20180209_142330\\1518157497211.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-09 14:24:51 - [TEST_CASE][FAILED] - Test Cases/008_login_fb_wrongpw: Test Cases/008_login_fb_wrongpw FAILED because (of) Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="facebook-connect-btn" data-reactid=".0.4.5.1.0.2.0">...</button> is not clickable at point (676, 282). Other element would receive the click: <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title" data-reactid=".0.4.5.1.0">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/009_logout" classname="Test Cases/009_logout" status="PASSED">
+         <system-out><![CDATA[2018-02-09 14:24:58 - [TEST_CASE][PASSED] - Test Cases/009_logout: Test Cases/009_logout
+
+2018-02-09 14:24:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-02-09 14:24:58 - [TEST_CASE][PASSED] - Test Cases/001_login_email_successful: Test Cases/001_login_email_successful
+
+2018-02-09 14:24:58 - [TEST_STEP][PASSED] - autoKeywords.goToHomepageMax.goToHomepage: autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:25:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 14:25:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-09 14:25:03 - [MESSAGE][PASSED] - Navigate to 'https://oddleautomate.beta.oddle.me/' successfully
+
+2018-02-09 14:25:03 - [MESSAGE][PASSED] - autoKeywords.goToHomepageMax.goToHomepage is PASSED
+
+2018-02-09 14:25:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_Sign In' is clicked on
+
+2018-02-09 14:25:03 - [TEST_STEP][PASSED] - setText: Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:25:04 - [MESSAGE][PASSED] - Text 'kevin.ang+auto@oddle.me' is set on object 'Object Repository/logIn/input_email'
+
+2018-02-09 14:25:04 - [TEST_STEP][PASSED] - setText: Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:25:04 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/logIn/input_password'
+
+2018-02-09 14:25:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Sign In' is clicked on
+
+2018-02-09 14:25:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_signin-flow-Save' is clicked on
+
+2018-02-09 14:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_signin-flow-Save' is clicked on
+
+2018-02-09 14:25:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/logIn/button_ Continue Shopping' is visible
+
+2018-02-09 14:25:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Object 'Object Repository/logIn/button_ Continue Shopping' is visible
+
+2018-02-09 14:25:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/button_ Continue Shopping' is clicked on
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/button_ Continue Shopping' is clicked on
+
+2018-02-09 14:25:05 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn: autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_signin_SignedIn Name' is: 'kevin test'
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Actual text 'kevin test' and expected text 'kevin test' are matched 
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedIn is PASSED
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/001_login_email_successful' successfully
+
+2018-02-09 14:25:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logIn/span_ns-close Notification' is clicked on
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/logIn/span_ns-close Notification' is clicked on
+
+2018-02-09 14:25:05 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/accountSettings/div_signed header-btn user Hover On' is hovered
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/accountSettings/div_signed header-btn user Hover On' is hovered
+
+2018-02-09 14:25:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/accountSettings/li_Sign Out' is visible
+
+2018-02-09 14:25:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '5'
+
+2018-02-09 14:25:05 - [MESSAGE][PASSED] - Object 'Object Repository/accountSettings/li_Sign Out' is visible
+
+2018-02-09 14:25:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/accountSettings/li_Sign Out' is clicked on
+
+2018-02-09 14:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/accountSettings/li_Sign Out' is clicked on
+
+2018-02-09 14:25:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-09 14:25:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-09 14:25:07 - [TEST_STEP][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut: autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED
+
+2018-02-09 14:25:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/logIn/span_Sign In' is: 'Sign In'
+
+2018-02-09 14:25:07 - [MESSAGE][PASSED] - Actual text 'Sign In' and expected text 'Sign In' are matched 
+
+2018-02-09 14:25:07 - [MESSAGE][PASSED] - autoKeywords.verifyLoginStatus.verifyLoggedOut is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-09 14:23:37 - [TEST_SUITE][FAILED] - login_logout: Test Cases/008_login_fb_wrongpw FAILED because (of) Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="facebook-connect-btn" data-reactid=".0.4.5.1.0.2.0">...</button> is not clickable at point (676, 282). Other element would receive the click: <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title" data-reactid=".0.4.5.1.0">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)]]></system-out>
+      <system-err><![CDATA[2018-02-09 14:23:37 - [TEST_SUITE][FAILED] - login_logout: Test Cases/008_login_fb_wrongpw FAILED because (of) Unable to click on object 'Object Repository/logIn/button_Facebook Connect' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="facebook-connect-btn" data-reactid=".0.4.5.1.0.2.0">...</button> is not clickable at point (676, 282). Other element would receive the click: <div class="grid-100 tablet-grid-100 mobile-grid-100 grid-parent content-title" data-reactid=".0.4.5.1.0">...</div>
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-JMN7MR3', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506120 (e3e53437346286..., userDataDir: C:\Users\Ang\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: a9b7fc9ffb8c0f65abfd372fe69ff4c1)]]></system-err>
+   </testsuite>
+</testsuites>

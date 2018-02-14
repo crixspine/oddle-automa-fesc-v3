@@ -59,7 +59,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>default unit number</description>
-      <initValue>'01-23'</initValue>
+      <initValue>'#01-23'</initValue>
       <name>unit</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

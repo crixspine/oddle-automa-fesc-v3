@@ -4,10 +4,16 @@
    <name>a_Continue Shopping</name>
    <tag></tag>
    <elementGuidId>b6e97178-6f00-4f99-bcfb-47224953e57b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://oddleautomate.beta.oddle.me/'][count(. | //*[text() = 'Continue Shopping']) = count(//*[text() = 'Continue Shopping'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

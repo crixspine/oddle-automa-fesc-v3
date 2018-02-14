@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View Order</name>
+   <tag></tag>
+   <elementGuidId>84d3a5b7-d3b7-41eb-a8ac-78805ab9ef02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[count(. | id(&quot;order-history-container&quot;)/div[@class=&quot;order-status-content settings-content pb-last-content grid-parent grid-100 tablet-grid-100 mobile-grid-100&quot;]/table[1]/tbody[2]/tr[1]/td[6]/a[@class=&quot;view-order-button&quot;]) = count(id(&quot;order-history-container&quot;)/div[@class=&quot;order-status-content settings-content pb-last-content grid-parent grid-100 tablet-grid-100 mobile-grid-100&quot;]/table[1]/tbody[2]/tr[1]/td[6]/a[@class=&quot;view-order-button&quot;])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>view-order-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.1.0.2.2.1.0.1.0.5.0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;order-history-container&quot;)/div[@class=&quot;order-status-content settings-content pb-last-content grid-parent grid-100 tablet-grid-100 mobile-grid-100&quot;]/table[1]/tbody[2]/tr[1]/td[6]/a[@class=&quot;view-order-button&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

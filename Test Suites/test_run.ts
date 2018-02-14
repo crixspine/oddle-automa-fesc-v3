@@ -4,7 +4,7 @@
    <name>test_run</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-07T17:28:05</lastRun>
+   <lastRun>2018-02-14T15:35:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
@@ -15,6 +15,6 @@
       <guid>bd686835-af20-499a-a1dc-a71e16a8e421</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/001_login_email_successful</testCaseId>
+      <testCaseId>Test Cases/login_email_successful</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
