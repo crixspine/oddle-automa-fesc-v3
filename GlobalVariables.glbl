@@ -4,7 +4,7 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description>v3.0 cart url</description>
-      <initValue>'https://oddleautomate.beta.oddle.me/'</initValue>
+      <initValue>'https://test-singapore.oddle.me/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
