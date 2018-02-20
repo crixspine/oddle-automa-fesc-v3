@@ -4,7 +4,7 @@
    <name>test_run</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-14T15:35:59</lastRun>
+   <lastRun>2018-02-20T16:01:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>
