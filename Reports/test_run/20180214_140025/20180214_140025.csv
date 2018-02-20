@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-test_run,Chrome 64.0.3282.167,,2018-02-14 14:00:33,2018-02-14 14:00:45,12.195s,FAILED
-,,,,,,
-Test Cases/login_email_successful,Chrome 64.0.3282.167,,2018-02-14 14:00:33,2018-02-14 14:00:44,11.299s,FAILED
-autoKeywords.goToHomepageMax.goToHomepage,Chrome 64.0.3282.167,,2018-02-14 14:00:33,2018-02-14 14:00:39,5.363s,PASSED
-click,Chrome 64.0.3282.167,,2018-02-14 14:00:39,2018-02-14 14:00:44,5.428s,FAILED
