@@ -24,11 +24,17 @@ CustomKeywords.'autoKeywords.goToHomepageMax.goToHomepage'()
 
 WebUI.click(findTestObject('logIn/span_Sign In'))
 
+WebUI.waitForElementVisible(findTestObject('logIn/div_grid-parent signin window'), 0)
+
+WebUI.waitForElementVisible(findTestObject('logIn/input_email'), 0)
+
 WebUI.setText(findTestObject('logIn/input_email'), GlobalVariable.email)
 
 WebUI.setText(findTestObject('logIn/input_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('logIn/button_signin-flow-Sign In'))
+
+WebUI.waitForElementVisible(findTestObject('logIn/button_signin-flow-Save'), 0)
 
 WebUI.click(findTestObject('logIn/button_signin-flow-Save'))
 

@@ -23,7 +23,7 @@ CustomKeywords.'autoKeywords.goToHomepageMax.goToHomepage'()
 
 WebUI.click(findTestObject('logIn/span_Sign In'))
 
-WebUI.verifyElementVisible(findTestObject('logIn/div_grid-parent signin window'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('logIn/div_grid-parent signin window'), 0)
 
 WebUI.setText(findTestObject('logIn/input_email'), GlobalVariable.email_placeholder)
 

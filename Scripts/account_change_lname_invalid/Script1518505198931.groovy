@@ -21,13 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
+
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/li Personal Info'), 0)
 
 WebUI.click(findTestObject('accountSettings/li Personal Info'))
 
 WebUI.verifyElementText(findTestObject('accountSettings/span_LastName-XPATH'), GlobalVariable.lname)
+
+WebUI.waitForElementClickable(findTestObject('accountSettings/i_fa fa Edit Personal Settings'), 0)
 
 WebUI.click(findTestObject('accountSettings/i_fa fa Edit Personal Settings'))
 
@@ -38,6 +46,8 @@ WebUI.setText(findTestObject('accountSettings/input_Last Name'), GlobalVariable.
 WebUI.waitForElementVisible(findTestObject('accountSettings/button_Save Edit Window'), 0)
 
 WebUI.click(findTestObject('accountSettings/button_Save Edit Window'))
+
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
 
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 

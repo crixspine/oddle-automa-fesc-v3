@@ -22,7 +22,11 @@ import internal.GlobalVariable as GlobalVariable
 'Ensure account only has 1 address; must be different from test input'
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
 
@@ -34,6 +38,8 @@ WebUI.click(findTestObject('accountSettings/li Personal Info'))
 WebUI.waitForElementClickable(findTestObject('accountSettings/i_fa fa-plus add-new-address'), 0)
 
 WebUI.click(findTestObject('accountSettings/i_fa fa-plus add-new-address'))
+
+WebUI.waitForElementClickable(findTestObject('accountSettings/input_addressOne'), 0)
 
 WebUI.setText(findTestObject('accountSettings/input_addressOne'), '195 Pearl Hill\'s Terrace')
 
@@ -49,9 +55,13 @@ WebUI.waitForElementClickable(findTestObject('accountSettings/button_Save Addres
 
 WebUI.click(findTestObject('accountSettings/button_Save Address Window'))
 
+WebUI.waitForElementClickable(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
 WebUI.verifyElementText(findTestObject('accountSettings/td_Address 2'), '195 Pearl Hill\'s Terrace #03-05 Singapore 168976')
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/a_Delete Address 2'), 0)
 
 'Delete Address'
 WebUI.click(findTestObject('accountSettings/a_Delete Address 2'))

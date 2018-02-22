@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))

@@ -14,11 +14,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
 
+WebUI.waitForElementVisible(findTestObject('accountSettings/li Personal Info'), 0)
+
 WebUI.click(findTestObject('accountSettings/li Personal Info'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/a_View Order'), 0)
 
 WebUI.click(findTestObject('accountSettings/a_View Order'))
 

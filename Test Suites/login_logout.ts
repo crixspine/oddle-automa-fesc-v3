@@ -4,7 +4,7 @@
    <name>login_logout</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-09T14:30:21</lastRun>
+   <lastRun>2018-02-21T11:54:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>

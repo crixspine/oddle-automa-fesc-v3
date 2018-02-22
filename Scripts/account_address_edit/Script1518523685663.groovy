@@ -22,13 +22,19 @@ import internal.GlobalVariable as GlobalVariable
 'Ensure account only has 1 address; must be different from test input'
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
 
 WebUI.waitForElementVisible(findTestObject('accountSettings/li Personal Info'), 0)
 
 WebUI.click(findTestObject('accountSettings/li Personal Info'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/a_Edit Address'), 0)
 
 WebUI.click(findTestObject('accountSettings/a_Edit Address'))
 
@@ -48,9 +54,13 @@ WebUI.waitForElementClickable(findTestObject('accountSettings/button_Save Addres
 
 WebUI.click(findTestObject('accountSettings/button_Save Address Window'))
 
+WebUI.waitForElementClickable(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
 WebUI.verifyElementText(findTestObject('accountSettings/td_Address 1'), '289D Bukit Batok Street 25 #08-180 Singapore 653289')
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/a_Edit Address'), 0)
 
 'Test complete and passed; change back to original address'
 WebUI.click(findTestObject('accountSettings/a_Edit Address'))
@@ -70,8 +80,6 @@ WebUI.waitForElementVisible(findTestObject('accountSettings/button_Save Address 
 WebUI.waitForElementClickable(findTestObject('accountSettings/button_Save Address Window'), 0)
 
 WebUI.click(findTestObject('accountSettings/button_Save Address Window'))
-
-WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
 WebUI.verifyElementText(findTestObject('accountSettings/td_Address 1'), (((GlobalVariable.address + ' ') + GlobalVariable.unit) + 
     ' Singapore ') + GlobalVariable.postalcode)

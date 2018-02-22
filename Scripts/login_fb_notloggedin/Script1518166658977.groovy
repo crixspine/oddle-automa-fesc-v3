@@ -27,6 +27,8 @@ WebUI.waitForElementClickable(findTestObject('logIn/button_Facebook Connect'), 0
 
 WebUI.click(findTestObject('logIn/button_Facebook Connect'))
 
+WebUI.delay(3)
+
 WebUI.switchToWindowTitle('Facebook', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('externalSites/input_email_fbwindow'), GlobalVariable.email_fb)

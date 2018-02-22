@@ -4,6 +4,7 @@
    <name>account_settings</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-02-22T11:31:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>5</pageLoadTimeout>

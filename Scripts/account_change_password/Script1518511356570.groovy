@@ -14,9 +14,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
+
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/li Personal Info'), 0)
 
 WebUI.click(findTestObject('accountSettings/li Personal Info'))
 
@@ -36,11 +42,15 @@ WebUI.setText(findTestObject('accountSettings/input_Confirm Password'), GlobalVa
 
 WebUI.click(findTestObject('accountSettings/button_Save Password Window'))
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
 
 WebUI.waitForElementVisible(findTestObject('accountSettings/span_Continue Shopping'), 0)
 
 WebUI.click(findTestObject('accountSettings/span_Continue Shopping'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
 
@@ -48,18 +58,24 @@ WebUI.waitForElementVisible(findTestObject('accountSettings/li_Sign Out'), 0)
 
 WebUI.click(findTestObject('accountSettings/li_Sign Out'))
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('logIn/span_Sign In'), 0)
 
 'Test login with new password'
 WebUI.click(findTestObject('logIn/span_Sign In'))
 
-WebUI.waitForElementClickable(findTestObject('accountSettings/input_Email'), 0)
+WebUI.waitForElementVisible(findTestObject('logIn/input_email'), 0)
 
 WebUI.setText(findTestObject('logIn/input_email'), GlobalVariable.email)
 
 WebUI.setText(findTestObject('logIn/input_password'), GlobalVariable.password_placeholder)
 
 WebUI.click(findTestObject('logIn/button_signin-flow-Sign In'))
+
+WebUI.waitForElementVisible(findTestObject('logIn/button_signin-flow-Save'), 0)
 
 WebUI.click(findTestObject('logIn/button_signin-flow-Save'))
 
@@ -69,10 +85,16 @@ WebUI.click(findTestObject('accountSettings/span_Continue Shopping'))
 
 CustomKeywords.'autoKeywords.verifyLoginStatus.verifyLoggedIn'()
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 'Test complete and passed; change back to original password'
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/li Personal Info'), 0)
 
 WebUI.click(findTestObject('accountSettings/li Personal Info'))
 

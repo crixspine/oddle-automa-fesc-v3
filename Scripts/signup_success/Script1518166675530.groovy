@@ -43,12 +43,18 @@ WebUI.setText(findTestObject('signUp/input_Password-XPATH'), GlobalVariable.pass
 
 WebUI.click(findTestObject('signUp/button_signin-flow-signup-butt'))
 
+WebUI.waitForElementVisible(findTestObject('logIn/a_ close signin window'), 0)
+
 WebUI.click(findTestObject('logIn/a_ close signin window'))
 
 CustomKeywords.'autoKeywords.verifyLoginStatus.verifyLoggedIn'()
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 'logout and re-login with new account'
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
 
@@ -60,7 +66,11 @@ WebUI.delay(1)
 
 CustomKeywords.'autoKeywords.verifyLoginStatus.verifyLoggedOut'()
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('logIn/span_Sign In'), 0)
 
 WebUI.click(findTestObject('logIn/span_Sign In'))
 
@@ -71,6 +81,8 @@ WebUI.setText(findTestObject('logIn/input_email'), ((str1 + '@') + str2) + '.com
 WebUI.setText(findTestObject('logIn/input_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('logIn/button_signin-flow-Sign In'))
+
+WebUI.waitForElementVisible(findTestObject('logIn/a_ close signin window'), 0)
 
 WebUI.click(findTestObject('logIn/a_ close signin window'))
 

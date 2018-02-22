@@ -39,6 +39,8 @@ WebUI.setText(findTestObject('signUp/input_Password-XPATH'), GlobalVariable.pass
 
 WebUI.click(findTestObject('signUp/button_signin-flow-signup-butt'))
 
+WebUI.waitForElementVisible(findTestObject('logIn/a_ close signin window'), 0)
+
 WebUI.click(findTestObject('logIn/a_ close signin window'))
 
 CustomKeywords.'autoKeywords.verifyLoginStatus.verifyLoggedOut'()

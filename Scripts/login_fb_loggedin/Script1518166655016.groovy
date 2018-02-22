@@ -25,6 +25,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.facebook.com/')
 
+WebUI.waitForElementVisible(findTestObject('externalSites/fb_input_email'), 0)
+
 WebUI.setText(findTestObject('externalSites/fb_input_email'), GlobalVariable.email_fb)
 
 WebUI.setText(findTestObject('externalSites/fb_input_pass'), GlobalVariable.password_fb)
@@ -34,6 +36,8 @@ WebUI.click(findTestObject('externalSites/fb_input_login'))
 WebUI.delay(3)
 
 WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.waitForElementVisible(findTestObject('logIn/span_Sign In'), 0)
 
 WebUI.click(findTestObject('logIn/span_Sign In'))
 

@@ -27,7 +27,11 @@ WebUI.waitForElementClickable(findTestObject('logIn/button_Facebook Connect'), 0
 
 WebUI.click(findTestObject('logIn/button_Facebook Connect'))
 
+WebUI.delay(3)
+
 WebUI.switchToWindowTitle('Facebook', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('externalSites/input_email_fbwindow'), 0)
 
 WebUI.setText(findTestObject('externalSites/input_email_fbwindow'), GlobalVariable.email_fb)
 
@@ -42,6 +46,8 @@ WebUI.verifyElementPresent(findTestObject('externalSites/div_error_box_fbwindow'
 WebUI.closeWindowTitle('Facebook')
 
 WebUI.switchToDefaultContent()
+
+WebUI.waitForElementVisible(findTestObject('logIn/a_ close signin window'), 0)
 
 WebUI.click(findTestObject('logIn/a_ close signin window'))
 

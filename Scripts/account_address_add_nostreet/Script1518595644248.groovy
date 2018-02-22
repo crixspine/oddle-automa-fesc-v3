@@ -22,7 +22,11 @@ import internal.GlobalVariable as GlobalVariable
 'Ensure account only has 1 address; must be different from test input'
 WebUI.callTestCase(findTestCase('login_email_successful'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('logIn/span_ns-close Notification'), 0)
+
 WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+
+WebUI.waitForElementVisible(findTestObject('accountSettings/div_signed header-btn user Hover On'), 0)
 
 WebUI.mouseOver(findTestObject('accountSettings/div_signed header-btn user Hover On'))
 
@@ -30,10 +34,11 @@ WebUI.waitForElementVisible(findTestObject('accountSettings/li Personal Info'), 
 
 WebUI.click(findTestObject('accountSettings/li Personal Info'))
 
-'Add address'
 WebUI.waitForElementClickable(findTestObject('accountSettings/i_fa fa-plus add-new-address'), 0)
 
 WebUI.click(findTestObject('accountSettings/i_fa fa-plus add-new-address'))
+
+WebUI.waitForElementClickable(findTestObject('accountSettings/input_addressTwo'), 0)
 
 WebUI.setText(findTestObject('accountSettings/input_addressTwo'), '#03-05')
 
@@ -45,9 +50,13 @@ WebUI.waitForElementVisible(findTestObject('accountSettings/button_Save Address 
 
 WebUI.waitForElementClickable(findTestObject('accountSettings/button_Save Address Window'), 0)
 
-WebUI.click(findTestObject('accountSettings/button_Save Address Window'))
+if (WebUI.verifyElementClickable(findTestObject('accountSettings/button_Save Address Window'), FailureHandling.CONTINUE_ON_FAILURE)) {
+    WebUI.click(findTestObject('accountSettings/button_Save Address Window'))
+} else {
+    WebUI.waitForElementClickable(findTestObject('accountSettings/a_Close Add Address Window'), 0)
 
-WebUI.click(findTestObject('logIn/span_ns-close Notification'))
+    WebUI.click(findTestObject('accountSettings/a_Close Add Address Window'))
+}
 
 WebUI.verifyElementNotPresent(findTestObject('accountSettings/td_Address 2'), 0)
 
