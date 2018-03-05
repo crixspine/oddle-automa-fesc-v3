@@ -19,7 +19,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>email for fb login</description>
-      <initValue>'kevin.ang@oddle.me'</initValue>
+      <initValue>'kevin.ang+auto@oddle.me'</initValue>
       <name>email_fb</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
