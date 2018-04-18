@@ -18,6 +18,12 @@
       <testCaseId>Test Cases/login_email_successful</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>93eb2b2b-d91f-4d12-ae5f-c1c57fc00808</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login_email_sidecart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3f811cc6-e2c1-47db-8ed5-4afa40b1cbc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

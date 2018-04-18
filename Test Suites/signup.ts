@@ -12,12 +12,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>696734a1-31d4-4c80-9f20-cdf1f0f75950</testSuiteGuid>
    <testCaseLink>
-      <guid>40921268-9be1-4613-986e-ca8f4e4d9e1f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/signup_alt_signin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>db4f2f02-ced8-42f6-bb43-2bab2a7c56bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -52,5 +46,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/signup_wronglname</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40921268-9be1-4613-986e-ca8f4e4d9e1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/signup_alt_signin</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
