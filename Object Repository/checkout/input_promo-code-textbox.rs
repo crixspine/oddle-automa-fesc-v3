@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_promo-code-textbox</name>
+   <tag></tag>
+   <elementGuidId>61b20c34-c30b-473d-9f43-a26af955da2d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>promo-code-textbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter Promo Code</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.3.0.0.2.0.0.0.1.0.0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;promotions-modal-content&quot;)/div[@class=&quot;promotions-modal-content&quot;]/div[@class=&quot;bx-wrapper&quot;]/div[@class=&quot;bx-viewport&quot;]/ul[@class=&quot;promotions-modal-slider-container&quot;]/li[@class=&quot;pb-height-100 promotions-modal-slider-content&quot;]/div[@class=&quot;promo-code-container&quot;]/div[@class=&quot;promo-code-input-container grid-parent grid-100 tablet-grid-100 mobile-grid-100&quot;]/div[@class=&quot;grid-parent grid-70 tablet-grid-70 mobile-grid-55 promo-code-textbox-container&quot;]/input[@class=&quot;promo-code-textbox&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

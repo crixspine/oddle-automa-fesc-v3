@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Show</name>
+   <tag></tag>
+   <elementGuidId>360a701f-6225-43a0-837f-37571cf08c2a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.1.0.0.0.1.0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Show</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-info-btn-container&quot;)/div[@class=&quot;grid-100 tablet-grid-100 mobile-grid-100 grid-parent&quot;]/div[1]/div[@class=&quot;promo-header-animation promotions-header-wrapper customise-promotion-bar-color customise-promotion-bar-font-color&quot;]/div[@class=&quot;promotions-header grid-container&quot;]/span[@class=&quot;promotions-header-show grid-20 tablet-grid-20 mobile-grid-30&quot;]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

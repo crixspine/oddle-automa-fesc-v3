@@ -4,7 +4,7 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description>v3.0 cart url</description>
-      <initValue>'https://test-singapore.oddle.me/'</initValue>
+      <initValue>'http://oddleautomate.beta.oddle.me/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,5 +81,20 @@
       <description>default last name</description>
       <initValue>'test'</initValue>
       <name>lname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test promocode</description>
+      <initValue>'Test_Promo_Code'</initValue>
+      <name>promocode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default alternate address</description>
+      <initValue>'195 Pearl Hills Terrace'</initValue>
+      <name>address_alternate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default alternate postal</description>
+      <initValue>'168976'</initValue>
+      <name>postal_alternate</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

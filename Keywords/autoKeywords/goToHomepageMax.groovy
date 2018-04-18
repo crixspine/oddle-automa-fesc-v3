@@ -29,7 +29,7 @@ public class goToHomepageMax {
 	
 	//goes to homepage and maximizes screen
 	@Keyword
-	def goToHomepage () {
+	def goToHomepage() {
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
 		WebUI.navigateToUrl(GlobalVariable.url);

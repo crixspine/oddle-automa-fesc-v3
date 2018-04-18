@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Checkout</name>
+   <tag></tag>
+   <elementGuidId>3b6505cc-598c-4ee8-b83c-cb0805f1cbc8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grid-30 tablet-grid-30</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-reactid</name>
+      <type>Main</type>
+      <value>.0.0.0.1.1.1.0.0.0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Checkout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-main-content&quot;)/div[@class=&quot;side-cart-holder customise-side-cart-background-color customise-side-cart-font-color grid-parent grid-25 tablet-grid-25&quot;]/div[@class=&quot;order-checkout-container customise-side-cart-background-color&quot;]/div[@class=&quot;side-cart-summary-sticky-part&quot;]/div[@class=&quot;side-cart-summary grid-100 tablet-grid-100 mobile-grid-100 grid-parent&quot;]/button[@class=&quot;checkout-btn grid-100 tablet-grid-100 mobile-grid-100 grid-parent&quot;]/span[@class=&quot;grid-30 tablet-grid-30&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
